@@ -1,5 +1,5 @@
 # synthBrain
 
-An attempt to understand the principles of the functioning of the living brain, visualize and translate them into code
+SynthBrain is an attempt to realize how does the living brain function and its principles
 
-This project has a goal, to develop a single algorithm, simulating the work of the neocortex, for any incoming information (vision, sound, smells ...) presented in the form of a matrix
+The main objective of the project is to establish a work simulation neocortex single algorism for any information( vision,sound,smells), which was  provided as a matrix
