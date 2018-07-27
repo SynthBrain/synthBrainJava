@@ -1,0 +1,18 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+  compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+  compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  compile "com.badlogicgames.gdx:gdx-bullet:$gdxVersion"
+  compile "com.kotcrab.vis:vis-ui:$visUiVersion"
+  compile "com.kotcrab.vis:vis-runtime:$visRuntimeVersion"
+  compile "net.onedaybeard.artemis:artemis-odb:$artemisOdbVersion"
+
+  compile files ('lib/webcam-0.3.12.jar')
+  compile files ('lib/bridj-0.7.0.jar')
+  compile files ('lib/slf4j-api-1.7.2.jar')
+  compile files ('lib/slf4j-nop-1.7.25.jar')
+}
+        
