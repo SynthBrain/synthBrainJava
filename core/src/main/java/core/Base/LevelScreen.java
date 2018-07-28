@@ -7,13 +7,11 @@ import com.badlogic.gdx.physics.bullet.collision.*;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import core.Bullet.MyContactListener;
-import core.BulletObjects.Background;
 import core.BulletObjects.BaseNeuron;
 import core.BulletObjects.Panorama;
 import core.Buttons.ButtonsUI;
 import core.Controller.ControllerVision;
-import core.Controller.ControllerVisionCortex;
-import core.Neurons.AssigneeNeuron;
+
 
 
 public class LevelScreen extends BaseScreen {
@@ -22,7 +20,6 @@ public class LevelScreen extends BaseScreen {
      * Обьекты
      */
     private Panorama panorama;
-    //private ControllerVisionCortex controllerVisionCortex;
     private ControllerVision controllerVision;
     /**
      * Графический Интерфейс
@@ -98,7 +95,6 @@ public class LevelScreen extends BaseScreen {
     @Override
     public void update(float dt) {
         super.update(dt);
-        //controllerVisionCortex.upd();
         controllerVision.upd();
         panorama.getActor3D().loadTexture("InputVision.jpg");
 

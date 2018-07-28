@@ -1,10 +1,8 @@
 package core.Controller;
 
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.physics.bullet.dynamics.btDiscreteDynamicsWorld;
-import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ArrayMap;
 import core.Base.BaseActor3D;
 import core.Base.Stage3D;
@@ -14,7 +12,6 @@ import core.Neurons.AssigneeNeuron;
 import core.Neurons.AssociationNeuron;
 import core.Neurons.PatternNeuron;
 import core.Neurons.StimulusNeuron;
-import sun.rmi.runtime.Log;
 
 import java.util.ArrayList;
 import java.util.HashMap;
