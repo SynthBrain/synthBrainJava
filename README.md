@@ -9,6 +9,7 @@ for any information(vision, sound, smells...), which was  provided as a matrix
 <a href="https://imgflip.com/gif/2ev0fx"><img src="https://i.imgflip.com/2ev0fx.gif" title="made at imgflip.com"/></a>
 
 План работ:
+
 0. Доработать логику формирования связяей, между активными нейронами
     а) Ввести в работу еще одну зону памяти - долговременную
     б) Проверить работу программы - если результат неудволетворительный повторить пункт 0.
